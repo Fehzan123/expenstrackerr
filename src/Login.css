@@ -1,0 +1,74 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .intro {
+    margin-bottom: 20px;
+  }
+  
+  .intro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .sign-in-join {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sign-in,
+  .join {
+    width: 45%;
+  }
+  
+  .sign-in h3,
+  .join h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .sign-in form,
+  .join form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sign-in input,
+  .join input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sign-in button,
+  .join button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sign-in button:hover,
+  .join button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,53 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f9fa; /* Example background color */
+    margin: 5%;
+    position: relative;
+    height: 25%;
+  }
+  
+  .logo img {
+    height: 60px; /* Adjust based on your logo size */
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between icons */
+  }
+  
+  .icon {
+    height: 24px; /* Adjust icon size */
+    cursor: pointer;
+    height: 40px;
+  }
+  
+  .caretIcon {
+    font-size: 24px; /* Adjust caret icon size */
+    cursor: pointer;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 50px; /* Adjust based on navbar height */
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  
+    z-index: 1000;
+    width: 150px; /* Adjust width as needed */
+  }
+  
+  .dropdownItem {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #f0f0f0; /* Hover color */
+  }
+  

@@ -1,0 +1,94 @@
+.BackitContainer{
+display: flex;
+justify-content: center;
+flex-direction: column;
+height: 200vh;
+width: 80%;
+border: 1px solid black;
+border-radius: 20px;
+position: relative;
+bottom: 5%;
+}
+.Slipp{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.BacHead{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+position: relative;
+
+
+}
+.BacRow{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin: 10px;
+  
+    border-radius: 20px;
+    background-color: rgb(205, 233, 209);
+}
+@media (max-width: 1200px) {
+    .BackitContainer {
+      width: 90%;
+      font-size: 15px;
+    }
+  
+    .BacRow {
+      flex-direction: column;
+      margin: 8px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .BackitContainer {
+      width: 95%;
+      font-size: 14px;
+    }
+  
+    .BacHead {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .BacRow {
+      margin: 6px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .BackitContainer {
+      width: 100%;
+      font-size: 13px;
+    }
+  
+    .BacHead {
+      justify-content: center;
+    }
+  
+    .BacRow {
+      margin: 4px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .BackitContainer {
+        position: relative;
+        top: 100%;
+      height: auto; /* Adjust height for smaller screens */
+      font-size: 12px;
+    }
+  
+    .BacRow {
+        position: relative;
+        height: 30vh;
+      margin: 2px;
+    }
+  }
